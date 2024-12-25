@@ -9,7 +9,7 @@ from datetime import datetime
 # Medical Shops
 medical_shops_data = pd.DataFrame({
     'Shop Name': ['HealthPlus Pharmacy', 'WellCare Pharmacy', 'MediShop Express'],
-    'Location': ['Downtown, New York', 'Uptown, Los Angeles', 'Midtown, Chicago'],
+    'Location': ['Adyar', 'BesantNager', 'Mylapore'],
     'Available Products': ['OTC Medicines, Prescriptions', 'Supplements, Prescriptions', 'OTC Medicines, Vitamins']
 })
 
@@ -22,18 +22,18 @@ ambulance_data = pd.DataFrame({
 
 # Hospitals
 hospitals_data = pd.DataFrame({
-    'Hospital Name': ['City Hospital', 'Downtown Clinic', 'Central Health Center'],
+    'Hospital Name': ['ABC Hospital', 'DEF Clinic', 'GHI Health Center'],
     'Specialty': ['Cardiology', 'Neurology', 'Orthopedics'],
-    'Consulting Cost': ['$150', '$200', '$180'],
-    'Treatment Cost': ['$5000', '$7000', '$6000'],
-    'Location': ['New York', 'Los Angeles', 'Chicago']
+    'Consulting Cost': ['150', '200', '5000'],
+    'Treatment Cost': ['5000', '7000', '6000'],
+    'Location': ['Adyar', 'Velachery', 'Alwarpet']
 })
 
 # Health Insurance Providers
 insurance_data = pd.DataFrame({
     'Provider Name': ['HealthSecure', 'MediCare', 'LifeHealth'],
     'Coverage Details': ['Comprehensive', 'Basic', 'Premium'],
-    'Premium Costs': ['$200/month', '$150/month', '$300/month'],
+    'Premium Costs': ['2000/month', '1500/month', '3000/month'],
     'Network Hospitals': ['50+', '30+', '70+']
 })
 
@@ -47,7 +47,7 @@ med_reps_data = pd.DataFrame({
 # Medical Loan Providers
 loan_providers_data = pd.DataFrame({
     'Provider Name': ['MedFinance', 'HealthLoans'],
-    'Loan Amount': ['Up to $50,000', 'Up to $100,000'],
+    'Loan Amount': ['Up to 50,000', 'Up to 100,000'],
     'Interest Rates': ['5% APR', '4.5% APR'],
     'Repayment Terms': ['5 years', '10 years']
 })
